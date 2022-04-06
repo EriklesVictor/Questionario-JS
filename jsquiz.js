@@ -148,8 +148,7 @@
         }
       }
       
-      score.append('Você acertou ' + numCorrect + ' perguntas de  ' +
-                   questions.length + ' no total!!!');
+      score.append(`Você acertou ${numCorrect} perguntas de  ${questions.length} no total!!!`);
       return score;
     }
   })();
